@@ -126,13 +126,13 @@ cd MyTool
 ### Run
 
 ```bash
-python mytool.py
+python RedMagic.py
 ```
 
 On some systems:
 
 ```bash
-python3 mytool.py
+python3 RedMagic.py
 ```
 
 ---
@@ -140,17 +140,17 @@ python3 mytool.py
 ## 🐍 Windows
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/MyTool.git
-cd MyTool
+git clone https://github.com/YOUR_USERNAME/RedMagic.git
+cd RedMagic
 py mytool.py
 ```
 
 ## 🐧 Linux / macOS
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MyTool.git
-cd MyTool
-python3 mytool.py
+git clone https://github.com/YOUR_USERNAME/RedMagic.git
+cd RedMagic
+python3 RedMagic.py
 ```
 
 ---
@@ -174,8 +174,8 @@ MyTool is intended to evolve from a single CLI into a modular application.
 A future structure may look like:
 
 ```text
-MyTool/
-├── mytool.py
+RedMagic/
+├── RedMagic.py
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
