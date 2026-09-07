@@ -1,12 +1,27 @@
-# ⚡ RedMagic
+<p align="center">
+  <img src="assets/banner.png" alt="RedMagic Python Multitool">
+</p>
 
-> **A modular Python multitool — built for learning, experimentation and future expansion.**
+<h1 align="center">⚡ RedMagic</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/status-in%20development-orange)](#-project-status)
-[![License](https://img.shields.io/badge/license-MIT-green)](#-license)
+<p align="center">
+  <strong>A modular Python multitool built for learning, experimentation and future expansion.</strong>
+</p>
 
-**⭐ Give this repository a star if you want to see future updates!**
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python\&logoColor=white)
+![Status](https://img.shields.io/badge/status-in%20development-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Modules](https://img.shields.io/badge/modules-30%2B-purple)
+
+</p>
+
+<p align="center">
+
+⭐ If you like RedMagic, consider giving the repository a star!
+
+</p>
 
 ---
 
@@ -14,17 +29,20 @@
 
 **RedMagic** is an interactive command-line multitool written in Python, designed around a large modular menu.
 
-The project is being developed as a single, easy-to-use CLI containing utilities for:
+The project aims to provide a single, easy-to-use CLI containing different utilities for developers, system administration, networking, data processing and security research.
+
+RedMagic is designed to become a **clean, modular and extensible Python toolbox** where new modules can be added without rewriting the entire application.
+
+### 🔧 Main categories
 
 * 🌐 Network & IP utilities
 * 🛠️ General-purpose utilities
 * 🔐 Hashing, encoding & cryptography-related helpers
 * 📁 File and data utilities
-* 🧪 Developer / testing utilities
+* 🧪 Developer and testing utilities
 * 🎲 Generators and miscellaneous tools
-* 🔌 A future plugin system
-
-The goal is to turn RedMagic into a **clean, modular and extensible toolbox** where new modules can be added without rewriting the whole application.
+* 🖥️ System utilities
+* 🔌 Future plugin system
 
 > **Important:** RedMagic is currently a work in progress. Some menu entries are prototypes, placeholders or unfinished modules and should not be considered production-ready.
 
@@ -34,15 +52,16 @@ The goal is to turn RedMagic into a **clean, modular and extensible toolbox** wh
 
 ### 🎨 Interactive CLI
 
-RedMagic uses an interactive terminal interface with:
+RedMagic provides an interactive terminal interface featuring:
 
-* Custom ASCII branding
-* Categorized modules
-* Keyboard navigation
-* Multi-page menus
-* Changelog / information screens
-* Plugin manager entry
-* Extras and configuration sections
+* ⚡ Custom ASCII branding
+* 📂 Categorized modules
+* ⌨️ Keyboard navigation
+* 📄 Multi-page menus
+* 📜 Changelog / information screens
+* 🔌 Plugin manager entry
+* ⚙️ Extras and configuration sections
+* 🧩 Modular architecture
 
 Example:
 
@@ -125,31 +144,21 @@ cd RedMagic
 
 ### Run
 
-```bash
-python RedMagic.py
-```
-
-On some systems:
-
-```bash
-python3 RedMagic.py
-```
-
----
-
-## 🐍 Windows
+#### Windows
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/RedMagic.git
-cd RedMagic
 py RedMagic.py
 ```
 
-## 🐧 Linux / macOS
+or:
+
+```powershell
+python RedMagic.py
+```
+
+#### Linux / macOS
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RedMagic.git
-cd RedMagic
 python3 RedMagic.py
 ```
 
@@ -157,12 +166,23 @@ python3 RedMagic.py
 
 ## 📸 Interface
 
-The project uses a custom terminal interface with categorized modules, navigation controls and an ASCII-style logo.
+RedMagic uses a custom terminal interface with categorized modules, navigation controls and an ASCII-style logo.
 
-Add screenshots or GIFs to `assets/` as the interface evolves:
+Example screenshot:
 
 ```markdown
 ![RedMagic interface](assets/menu.png)
+```
+
+You can place screenshots and GIFs inside the `assets/` directory.
+
+Recommended structure:
+
+```text
+assets/
+├── banner.png
+├── menu.png
+└── demo.gif
 ```
 
 ---
@@ -184,6 +204,9 @@ RedMagic/
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── assets/
+│   ├── banner.png
+│   ├── menu.png
+│   └── demo.gif
 ├── docs/
 ├── modules/
 │   ├── network/
@@ -207,7 +230,7 @@ This makes it easier to:
 
 ## 🔌 Plugin System
 
-A plugin manager is planned as part of the project's modular architecture.
+A plugin manager is planned as part of RedMagic's modular architecture.
 
 The long-term goal is to allow additional utilities to be installed without modifying the core application.
 
@@ -271,8 +294,8 @@ If you clone the repository and something does not work, please open an issue wi
 
 1. Operating system
 2. Python version
-3. The module number/name
-4. The exact error message
+3. Module number/name
+4. Exact error message
 5. Steps to reproduce
 
 This helps development considerably.
@@ -353,16 +376,14 @@ If you like the idea behind RedMagic and want to see it grow:
 
 Every star helps the project get more visibility and motivates future updates.
 
-**⭐ Star the repo for future updates!**
-
 You can also:
 
-* Report bugs
-* Suggest features
-* Improve documentation
-* Contribute modules
-* Share the project
-* Open pull requests
+* 🐛 Report bugs
+* 💡 Suggest features
+* 📖 Improve documentation
+* 🧩 Contribute modules
+* 📢 Share the project
+* 🔀 Open pull requests
 
 ---
 
@@ -374,7 +395,7 @@ The long-term objective is simple:
 
 > **One CLI. Many useful tools. Clean architecture. Community-driven development.**
 
-If the project grows, the goal is to make every stable module documented, tested and genuinely useful rather than simply filling the menu with entries.
+The goal is to make every stable module documented, tested and genuinely useful rather than simply filling the menu with entries.
 
 ---
 
@@ -384,10 +405,16 @@ Star the repository to follow future releases and improvements.
 
 ---
 
-### RedMagic
+<h3 align="center">⚡ RedMagic</h3>
 
-**Built with Python 🐍**
+<p align="center">
+  <strong>Built with Python 🐍</strong>
+</p>
 
-**30+ modules • Modular architecture • Continuous development**
+<p align="center">
+  30+ modules • Modular architecture • Continuous development
+</p>
 
-> ⭐ **Give a star for future updates!**
+<p align="center">
+  ⭐ <strong>Give the repository a star for future updates!</strong>
+</p>
