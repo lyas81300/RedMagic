@@ -1,8 +1,8 @@
-# ⚡ MyTool
+# ⚡ RedMagic
 
 > **A modular Python multitool — built for learning, experimentation and future expansion.**
 
-[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python\&logoColor=white)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/status-in%20development-orange)](#-project-status)
 [![License](https://img.shields.io/badge/license-MIT-green)](#-license)
 
@@ -12,21 +12,21 @@
 
 ## 🖥️ About
 
-**MyTool** is an interactive command-line multitool written in Python, designed around a large modular menu.
+**RedMagic** is an interactive command-line multitool written in Python, designed around a large modular menu.
 
 The project is being developed as a single, easy-to-use CLI containing utilities for:
 
-- 🌐 Network & IP utilities
-- 🛠️ General-purpose utilities
-- 🔐 Hashing, encoding & cryptography-related helpers
-- 📁 File and data utilities
-- 🧪 Developer / testing utilities
-- 🎲 Generators and miscellaneous tools
-- 🔌 A future plugin system
+* 🌐 Network & IP utilities
+* 🛠️ General-purpose utilities
+* 🔐 Hashing, encoding & cryptography-related helpers
+* 📁 File and data utilities
+* 🧪 Developer / testing utilities
+* 🎲 Generators and miscellaneous tools
+* 🔌 A future plugin system
 
-The goal is to turn MyTool into a **clean, modular and extensible toolbox** where new modules can be added without rewriting the whole application.
+The goal is to turn RedMagic into a **clean, modular and extensible toolbox** where new modules can be added without rewriting the whole application.
 
-> **Important:** MyTool is currently a work in progress. Some menu entries are prototypes, placeholders or unfinished modules and should not be considered production-ready.
+> **Important:** RedMagic is currently a work in progress. Some menu entries are prototypes, placeholders or unfinished modules and should not be considered production-ready.
 
 ---
 
@@ -34,20 +34,20 @@ The goal is to turn MyTool into a **clean, modular and extensible toolbox** wher
 
 ### 🎨 Interactive CLI
 
-MyTool uses an interactive terminal interface with:
+RedMagic uses an interactive terminal interface with:
 
-- Custom ASCII branding
-- Categorized modules
-- Keyboard navigation
-- Multi-page menus
-- Changelog / information screens
-- Plugin manager entry
-- Extras and configuration sections
+* Custom ASCII branding
+* Categorized modules
+* Keyboard navigation
+* Multi-page menus
+* Changelog / information screens
+* Plugin manager entry
+* Extras and configuration sections
 
 Example:
 
 ```text
-[MyTool] -> 21
+[RedMagic] -> 21
 
 Choose a module and run it directly from the terminal.
 ```
@@ -58,47 +58,47 @@ Choose a module and run it directly from the terminal.
 
 The current interface contains modules such as:
 
-| # | Module | Category | Status |
-|---:|---|---|---|
-| 01 | Rat Creator | Security research / prototype | 🧪 Prototype |
-| 02 | Keylogger Build | Security research / prototype | 🧪 Prototype |
-| 03 | Stealer Build | Security research / prototype | 🧪 Prototype |
-| 04 | Ransomware Build | Security research / prototype | 🧪 Prototype |
-| 05 | WiFi Stealer Build | Security research / prototype | 🧪 Prototype |
-| 06 | Virus Build | Security research / prototype | 🧪 Prototype |
-| 07 | Botnet Builder | Security research / prototype | 🧪 Prototype |
-| 08 | Remote Shell | Administration / research | 🧪 Prototype |
-| 09 | Proxy Manager | Network | 🚧 Development |
-| 10 | Network Recon | Network | 🚧 Development |
-| 11 | Crypto Miner Build | Research / prototype | 🧪 Prototype |
-| 12 | Password Generator | Utility | ✅ Functional |
-| 13 | Hash Identifier | Utility | ✅ Functional |
-| 14 | Payload Generator | Security research / prototype | 🧪 Prototype |
-| 15 | Exploit Builder | Security research / prototype | 🧪 Prototype |
-| 16 | JSON Formatter | Developer | ✅ Functional |
-| 17 | Base64 Encoder | Developer | ✅ Functional |
-| 18 | Hex Converter | Developer | ✅ Functional |
-| 19 | File Analyzer | Utility | 🚧 Development |
-| 20 | String Obfuscator | Developer / research | 🧪 Prototype |
-| 21 | Fake Terminal | Demo | 🧪 Prototype |
-| 22 | System Scanner | System | 🚧 Development |
-| 23 | IP Intelligence | Network | 🚧 Development |
-| 24 | Lorem Ipsum Generator | Utility | ✅ Functional |
-| 25 | Regex Tester | Developer | ✅ Functional |
-| 26 | Timestamp Converter | Developer | ✅ Functional |
-| 27 | Color Picker | Utility | 🚧 Development |
-| 28 | Code Formatter | Developer | 🚧 Development |
-| 29 | Random Generator | Utility | ✅ Functional |
-| 30 | Debug Console | Developer | 🧪 Prototype |
+|  # | Module                | Category                      | Status         |
+| -: | --------------------- | ----------------------------- | -------------- |
+| 01 | Rat Creator           | Security research / prototype | 🧪 Prototype   |
+| 02 | Keylogger Build       | Security research / prototype | 🧪 Prototype   |
+| 03 | Stealer Build         | Security research / prototype | 🧪 Prototype   |
+| 04 | Ransomware Build      | Security research / prototype | 🧪 Prototype   |
+| 05 | WiFi Stealer Build    | Security research / prototype | 🧪 Prototype   |
+| 06 | Virus Build           | Security research / prototype | 🧪 Prototype   |
+| 07 | Botnet Builder        | Security research / prototype | 🧪 Prototype   |
+| 08 | Remote Shell          | Administration / research     | 🧪 Prototype   |
+| 09 | Proxy Manager         | Network                       | 🚧 Development |
+| 10 | Network Recon         | Network                       | 🚧 Development |
+| 11 | Crypto Miner Build    | Research / prototype          | 🧪 Prototype   |
+| 12 | Password Generator    | Utility                       | ✅ Functional   |
+| 13 | Hash Identifier       | Utility                       | ✅ Functional   |
+| 14 | Payload Generator     | Security research / prototype | 🧪 Prototype   |
+| 15 | Exploit Builder       | Security research / prototype | 🧪 Prototype   |
+| 16 | JSON Formatter        | Developer                     | ✅ Functional   |
+| 17 | Base64 Encoder        | Developer                     | ✅ Functional   |
+| 18 | Hex Converter         | Developer                     | ✅ Functional   |
+| 19 | File Analyzer         | Utility                       | 🚧 Development |
+| 20 | String Obfuscator     | Developer / research          | 🧪 Prototype   |
+| 21 | Fake Terminal         | Demo                          | 🧪 Prototype   |
+| 22 | System Scanner        | System                        | 🚧 Development |
+| 23 | IP Intelligence       | Network                       | 🚧 Development |
+| 24 | Lorem Ipsum Generator | Utility                       | ✅ Functional   |
+| 25 | Regex Tester          | Developer                     | ✅ Functional   |
+| 26 | Timestamp Converter   | Developer                     | ✅ Functional   |
+| 27 | Color Picker          | Utility                       | 🚧 Development |
+| 28 | Code Formatter        | Developer                     | 🚧 Development |
+| 29 | Random Generator      | Utility                       | ✅ Functional   |
+| 30 | Debug Console         | Developer                     | 🧪 Prototype   |
 
 More modules are planned for future releases.
 
 ### Status legend
 
-- ✅ **Functional** — currently usable
-- 🚧 **Development** — partially implemented / being improved
-- 🧪 **Prototype** — experimental or demonstration code
-- 📋 **Planned** — not implemented yet
+* ✅ **Functional** — currently usable
+* 🚧 **Development** — partially implemented / being improved
+* 🧪 **Prototype** — experimental or demonstration code
+* 📋 **Planned** — not implemented yet
 
 **The README deliberately does not claim that every menu entry is functional.**
 
@@ -108,9 +108,9 @@ More modules are planned for future releases.
 
 ### Requirements
 
-- Python **3.9+**
-- Git
-- A terminal / command prompt
+* Python **3.9+**
+* Git
+* A terminal / command prompt
 
 The core project is intended to rely primarily on the Python standard library.
 
@@ -119,8 +119,8 @@ Optional dependencies may be added as the project evolves.
 ### Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MyTool.git
-cd MyTool
+git clone https://github.com/YOUR_USERNAME/RedMagic.git
+cd RedMagic
 ```
 
 ### Run
@@ -142,7 +142,7 @@ python3 RedMagic.py
 ```powershell
 git clone https://github.com/YOUR_USERNAME/RedMagic.git
 cd RedMagic
-py mytool.py
+py RedMagic.py
 ```
 
 ## 🐧 Linux / macOS
@@ -162,14 +162,14 @@ The project uses a custom terminal interface with categorized modules, navigatio
 Add screenshots or GIFs to `assets/` as the interface evolves:
 
 ```markdown
-![MyTool interface](assets/menu.png)
+![RedMagic interface](assets/menu.png)
 ```
 
 ---
 
 ## 🧩 Architecture
 
-MyTool is intended to evolve from a single CLI into a modular application.
+RedMagic is intended to evolve from a single CLI into a modular application.
 
 A future structure may look like:
 
@@ -196,12 +196,12 @@ RedMagic/
 
 This makes it easier to:
 
-- Add new modules
-- Test modules independently
-- Fix bugs without touching unrelated features
-- Accept community contributions
-- Build plugins
-- Maintain multiple releases
+* Add new modules
+* Test modules independently
+* Fix bugs without touching unrelated features
+* Accept community contributions
+* Build plugins
+* Maintain multiple releases
 
 ---
 
@@ -214,7 +214,7 @@ The long-term goal is to allow additional utilities to be installed without modi
 Possible future workflow:
 
 ```text
-MyTool
+RedMagic
   │
   ├── Core
   │
@@ -234,36 +234,36 @@ The plugin API is subject to change while the project is in development.
 
 ### v2.x
 
-- [x] Interactive menu
-- [x] Multi-page navigation
-- [x] Module categories
-- [x] Basic utility modules
-- [x] Changelog / information screens
-- [ ] Finish incomplete modules
-- [ ] Improve error handling
-- [ ] Improve cross-platform compatibility
-- [ ] Add automated tests
-- [ ] Add configuration system
-- [ ] Improve plugin manager
-- [ ] Improve documentation
+* [x] Interactive menu
+* [x] Multi-page navigation
+* [x] Module categories
+* [x] Basic utility modules
+* [x] Changelog / information screens
+* [ ] Finish incomplete modules
+* [ ] Improve error handling
+* [ ] Improve cross-platform compatibility
+* [ ] Add automated tests
+* [ ] Add configuration system
+* [ ] Improve plugin manager
+* [ ] Improve documentation
 
 ### Future
 
-- [ ] Proper plugin API
-- [ ] Module discovery
-- [ ] Configuration file
-- [ ] Better terminal rendering
-- [ ] Unit tests for every stable module
-- [ ] CI / automated testing
-- [ ] Versioned releases
-- [ ] Package distribution
-- [ ] Community-contributed modules
+* [ ] Proper plugin API
+* [ ] Module discovery
+* [ ] Configuration file
+* [ ] Better terminal rendering
+* [ ] Unit tests for every stable module
+* [ ] CI / automated testing
+* [ ] Versioned releases
+* [ ] Package distribution
+* [ ] Community-contributed modules
 
 ---
 
 ## 🧪 Development Status
 
-MyTool is **not finished**.
+RedMagic is **not finished**.
 
 The visual menu currently contains more entries than there are fully mature implementations. Some modules are demonstrations, experiments or placeholders.
 
@@ -289,14 +289,14 @@ Have an idea?
 
 Feature requests are welcome, especially for:
 
-- New harmless utilities
-- Developer tooling
-- System administration helpers
-- Network diagnostics
-- Data conversion
-- Testing tools
-- UI/UX improvements
-- Plugin ideas
+* New harmless utilities
+* Developer tooling
+* System administration helpers
+* Network diagnostics
+* Data conversion
+* Testing tools
+* UI/UX improvements
+* Plugin ideas
 
 ---
 
@@ -314,12 +314,12 @@ Then test your changes locally.
 
 For a new module, please try to keep it:
 
-- Self-contained
-- Documented
-- Cross-platform where possible
-- Easy to understand
-- Covered by tests when practical
-- Compatible with the existing CLI architecture
+* Self-contained
+* Documented
+* Cross-platform where possible
+* Easy to understand
+* Covered by tests when practical
+* Compatible with the existing CLI architecture
 
 Please do not submit malware, credential theft, destructive payloads, unauthorized access tooling, or code intended to compromise systems.
 
@@ -327,7 +327,7 @@ Please do not submit malware, credential theft, destructive payloads, unauthoriz
 
 ## ⚠️ Responsible Use
 
-MyTool is a **research, educational and development project**.
+RedMagic is a **research, educational and development project**.
 
 Some security-themed entries are experimental concepts and are not intended to facilitate unauthorized access, credential theft, persistence, destructive attacks or deployment against systems without permission.
 
@@ -347,7 +347,7 @@ See [`LICENSE`](LICENSE) for the complete license text.
 
 ## ⭐ Support the Project
 
-If you like the idea behind MyTool and want to see it grow:
+If you like the idea behind RedMagic and want to see it grow:
 
 ### ⭐ Give the repository a star!
 
@@ -357,18 +357,18 @@ Every star helps the project get more visibility and motivates future updates.
 
 You can also:
 
-- Report bugs
-- Suggest features
-- Improve documentation
-- Contribute modules
-- Share the project
-- Open pull requests
+* Report bugs
+* Suggest features
+* Improve documentation
+* Contribute modules
+* Share the project
+* Open pull requests
 
 ---
 
 ## 📈 Project Vision
 
-MyTool started as a terminal menu and is evolving toward a modular Python toolbox.
+RedMagic started as a terminal menu and is evolving toward a modular Python toolbox.
 
 The long-term objective is simple:
 
@@ -384,10 +384,10 @@ Star the repository to follow future releases and improvements.
 
 ---
 
-### MyTool
+### RedMagic
 
 **Built with Python 🐍**
 
-**60-module vision • Modular architecture • Continuous development**
+**30+ modules • Modular architecture • Continuous development**
 
 > ⭐ **Give a star for future updates!**
